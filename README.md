@@ -1,53 +1,21 @@
-# Ai-doctor-bot
-Talk to Dr. Alex Carter – Your Trusted 24/7 On-Call Doctor
-# 🩺 AI Doctor Bot – AI-Powered Healthcare Assistant
+# Project: V3 - NEW LEAD - ADD UNIQUE ID, ADD TO CRM, EMAIL, SMS, CALL BY BOT
 
-This AI Doctor Bot is a smart automation that helps clinics and patients by answering health-related questions, booking appointments, and guiding patients—24/7—with voice or chat.
+This project automates the process of handling new leads by:
+- Assigning a unique ID
+- Adding the lead to the CRM
+- Sending email and SMS notifications
+- Initiating a call by bot
 
-### 🔍 What It Does
+## Files
 
-- 🧠 Uses GPT-4 to understand symptoms and suggest next steps  
-- 📅 Books appointments via Google Calendar or GHL  
-- ☎️ Works via voice (Vapi/Retell) and WhatsApp/Web chat  
-- 🔄 Built using n8n, Make.com, and OpenAI  
-- 👩‍⚕️ Supports multiple languages & patient types  
-- 🏥 Custom flows for general clinic, dental, and skin care use cases  
+- `V3 - NEW LEAD - ADD UNIQUE ID, ADD TO CRM, EMAIL , SMS , CALL BY BOT 2.blueprint.json`: Main automation blueprint.
 
-### 🚀 Tech Stack
+## Setup
 
-| Tool         | Use Case                        |
-|--------------|----------------------------------|
-| GPT-4 / OpenAI | Understanding symptoms, dialog |
-| Vapi / Retell | Voice interface & conversation  |
-| Make.com / n8n | Automation & backend logic     |
-| Twilio        | Phone/SMS integration           |
-| Google Calendar | Booking system integration   |
+1. Review the blueprint JSON for module configuration.
+2. Ensure all API keys and connections are set up in your automation platform.
+3. Adjust spreadsheet and CRM IDs as needed.
 
-### 📸 Demo
+## Usage
 
-🗣️ Example conversation with the AI Doctor Bot:
-
-### 📂 How to Use
-
-1. Import `flow.json` into your automation tool (n8n or Make)
-2. Set up your environment variables:
-   - `OPENAI_API_KEY`
-   - `TWILIO_SID`, `TWILIO_TOKEN`
-   - `CALENDAR_ID` or GHL URL
-3. Test via WhatsApp, Web chat, or Voice
-
-### 📄 License
-
-This project is under the [MIT License](LICENSE).
-
-*This bot runs on GPT-4 + voice layer via Vapi and books through Google Calendar or GHL.*
-
-### 🤝 Let's Collaborate
-
-Want a custom version for your clinic, dental office, or hospital?
-
-📧 waqarhussainsyed02@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/waqar-syed-/)
-
----
-> Built with ❤️ by Waqar – Automating Healthcare, One Bot at a Time
+Import the blueprint into your automation tool and follow the instructions to activate the workflow.
